@@ -1,0 +1,149 @@
+body {
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+  padding: 50px;
+}
+
+.game-title {
+  font-family: 'Londrina Solid', cursive;
+  font-size: 45pt;
+  padding-block-end: 24px;
+}
+
+input[type='text'] {
+  align-items: center;
+  background-color: white;
+  font-family: 'Londrina Solid', cursive;
+  width: 80px;
+  height: 60px;
+  font-size: 50px;
+  text-align: center;
+  border: none;
+  outline: 0.25px black;
+  box-shadow: 1px 1px 16px 1px lightgray inset;
+  padding: 12px 20px;
+  border-radius: 12px;
+}
+
+input[type='text']:focus {
+  box-shadow: 1px 1px 14px 1px gray inset;
+}
+
+button {
+  background-color: white;
+  color: gray;
+  border-style: solid 2px lightgray;
+  font-family: 'Londrina Solid', cursive;
+  height: 32px;
+  padding-left: 14px;
+  padding-right: 14px;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+button:hover,
+button:focus {
+  outline: none;
+  background-color: black;
+  color: white;
+  box-shadow: 1px 1px 14px 2px lightgray;
+}
+
+button:disabled,
+button:disabled:hover {
+  background-color: whitesmoke;
+  color: lightgray;
+  border-style: solid 2px lightgray;
+  box-shadow: none;
+}
+
+.past-guess {
+  color: white;
+  font-family: 'Londrina Solid', cursive;
+  font-size: 25pt;
+  display: inline-block;
+  width: 50px;
+  padding: 6px;
+  border-radius: 25%;
+  height: 40px;
+  margin: 6px;
+  text-align: center;
+  border-style: solid 2px lightgray;
+}
+
+.empty {
+  color: lightgray;
+  background-color: white;
+  box-shadow: 1px 1px 14px 2px lightgray;
+}
+
+.lose {
+  background-color: #000;
+  box-shadow: 1px 1px 14px 2px #000;
+}
+
+.win {
+  background-color: #ea1d51;
+  box-shadow: 1px 1px 14px 2px #ea1d51;
+}
+
+.burning-up {
+  background-color: #ff5733;
+  box-shadow: 1px 1px 14px 2px #ff5733;
+}
+
+.lukewarm {
+  background-color: #d5d61e;
+  box-shadow: 1px 1px 14px 2px #d5d61e;
+}
+
+.chilly {
+  background-color: #d5d61e;
+  box-shadow: 1px 1px 14px 2px #d5d61e;
+}
+
+.ice-cold {
+  background-color: #1ed2d6;
+  box-shadow: 1px 1px 14px 2px #1ed2d6;
+}
+
+#hint-text {
+  font-weight: bold;
+  color: darkgray;
+  font-size: 20px;
+  padding-block-start: 6px;
+}
+
+.hint {
+  position: relative;
+  font-family: 'Londrina Solid', cursive;
+  color: darkgray;
+  display: inline-block;
+  font-size: 25pt;
+  width: 30px;
+  padding: 4px;
+  height: 32px;
+  margin: 6px;
+  text-align: center;
+}
+
+.message-win {
+  font-size: 20pt;
+  color: rgb(234, 29, 81);
+}
+
+.message-lose {
+  font-size: 20pt;
+}
+
+#arrow {
+  position: fixed;
+  margin-left: 4px;
+  margin-top: 9px;
+  height: 24px;
+  width: 28px;
+  opacity: 0.6;
+  transform: rotate(6deg);
+}

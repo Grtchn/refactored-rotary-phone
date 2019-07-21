@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Guessing Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Londrina+Solid" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+      <div class="game-title">Guessing Game</div>
+      <div class="game-block">
+
+        <input id="guess-input" type="text" placeholder="">
+        <h3 id="message">&nbsp;</h4>
+        <h4 id="message2">Pick a number between 1 and 100.</h3>
+        <p></p>
+        <div>
+          <span class="past-guess empty" id="past-guess-0">?</span>
+          <span class="past-guess empty" id="past-guess-1">?</span>
+          <span class="past-guess empty" id="past-guess-2">?</span>
+          <span class="past-guess empty" id="past-guess-3">?</span>
+          <span class="past-guess empty" id="past-guess-4">?</span>
+        </div>
+
+        <p></p>
+        <button id="reset-button">New Game</button>
+        <button id="hint-button">Hint</button>
+        <img id="arrow" src="arrow.png">
+        <p></p>
+        <div>
+          <span id="hint-text">&nbsp;</span>
+          <span class="hint" id="hint-1"></span>
+          <span class="hint" id="hint-2"></span>
+          <span class="hint" id="hint-3"></span>
+        </div>
+
+    </div>
+
+    <script src='game.js'></script>
+  </body>
+</html>
